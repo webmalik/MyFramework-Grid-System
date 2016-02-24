@@ -1,0 +1,226 @@
+.row div {
+  box-sizing: border-box;
+  background-color: #2D45FA;
+  margin: 10px 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row div {
+  box-sizing: border-box;
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+.wm-xs-1, .wm-sm-1, .wm-md-1, .wm-lg-1, .wm-xs-2, .wm-sm-2, .wm-md-2, .wm-lg-2, .wm-xs-3, .wm-sm-3, .wm-md-3, .wm-lg-3, .wm-xs-4, .wm-sm-4, .wm-md-4, .wm-lg-4, .wm-xs-5, .wm-sm-5, .wm-md-5, .wm-lg-5, .wm-xs-6, .wm-sm-6, .wm-md-6, .wm-lg-6, .wm-xs-7, .wm-sm-7, .wm-md-7, .wm-lg-7, .wm-xs-8, .wm-sm-8, .wm-md-8, .wm-lg-8, .wm-xs-9, .wm-sm-9, .wm-md-9, .wm-lg-9, .wm-xs-10, .wm-sm-10, .wm-md-10, .wm-lg-10, .wm-xs-11, .wm-sm-11, .wm-md-11, .wm-lg-11, .wm-xs-12, .wm-sm-12, .wm-md-12, .wm-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.wm-xs-1, .wm-xs-2, .wm-xs-3, .wm-xs-4, .wm-xs-5, .wm-xs-6, .wm-xs-7, .wm-xs-8, .wm-xs-9, .wm-xs-10, .wm-xs-11, .wm-xs-12 {
+  float: left;
+}
+.wm-xs-12 {
+  width: 100%;
+}
+.wm-xs-11 {
+  width: 91.66666667%;
+}
+.wm-xs-10 {
+  width: 83.33333333%;
+}
+.wm-xs-9 {
+  width: 75%;
+}
+.wm-xs-8 {
+  width: 66.66666667%;
+}
+.wm-xs-7 {
+  width: 58.33333333%;
+}
+.wm-xs-6 {
+  width: 50%;
+}
+.wm-xs-5 {
+  width: 41.66666667%;
+}
+.wm-xs-4 {
+  width: 33.33333333%;
+}
+.wm-xs-3 {
+  width: 25%;
+}
+.wm-xs-2 {
+  width: 16.66666667%;
+}
+.wm-xs-1 {
+  width: 8.33333333%;
+}
+@media (min-width: 768px) {
+  .wm-sm-1, .wm-sm-2, .wm-sm-3, .wm-sm-4, .wm-sm-5, .wm-sm-6, .wm-sm-7, .wm-sm-8, .wm-sm-9, .wm-sm-10, .wm-sm-11, .wm-sm-12 {
+    float: left;
+  }
+  .wm-sm-12 {
+    width: 100%;
+  }
+  .wm-sm-11 {
+    width: 91.66666667%;
+  }
+  .wm-sm-10 {
+    width: 83.33333333%;
+  }
+  .wm-sm-9 {
+    width: 75%;
+  }
+  .wm-sm-8 {
+    width: 66.66666667%;
+  }
+  .wm-sm-7 {
+    width: 58.33333333%;
+  }
+  .wm-sm-6 {
+    width: 50%;
+  }
+  .wm-sm-5 {
+    width: 41.66666667%;
+  }
+  .wm-sm-4 {
+    width: 33.33333333%;
+  }
+  .wm-sm-3 {
+    width: 25%;
+  }
+  .wm-sm-2 {
+    width: 16.66666667%;
+  }
+  .wm-sm-1 {
+    width: 8.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .wm-md-1, .wm-md-2, .wm-md-3, .wm-md-4, .wm-md-5, .wm-md-6, .wm-md-7, .wm-md-8, .wm-md-9, .wm-md-10, .wm-md-11, .wm-md-12 {
+    float: left;
+  }
+  .wm-md-12 {
+    width: 100%;
+  }
+  .wm-md-11 {
+    width: 91.66666667%;
+  }
+  .wm-md-10 {
+    width: 83.33333333%;
+  }
+  .wm-md-9 {
+    width: 75%;
+  }
+  .wm-md-8 {
+    width: 66.66666667%;
+  }
+  .wm-md-7 {
+    width: 58.33333333%;
+  }
+  .wm-md-6 {
+    width: 50%;
+  }
+  .wm-md-5 {
+    width: 41.66666667%;
+  }
+  .wm-md-4 {
+    width: 33.33333333%;
+  }
+  .wm-md-3 {
+    width: 25%;
+  }
+  .wm-md-2 {
+    width: 16.66666667%;
+  }
+  .wm-md-1 {
+    width: 8.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .wm-lg-1, .wm-lg-2, .wm-lg-3, .wm-lg-4, .wm-lg-5, .wm-lg-6, .wm-lg-7, .wm-lg-8, .wm-lg-9, .wm-lg-10, .wm-lg-11, .wm-lg-12 {
+    float: left;
+  }
+  .wm-lg-12 {
+    width: 100%;
+  }
+  .wm-lg-11 {
+    width: 91.66666667%;
+  }
+  .wm-lg-10 {
+    width: 83.33333333%;
+  }
+  .wm-lg-9 {
+    width: 75%;
+  }
+  .wm-lg-8 {
+    width: 66.66666667%;
+  }
+  .wm-lg-7 {
+    width: 58.33333333%;
+  }
+  .wm-lg-6 {
+    width: 50%;
+  }
+  .wm-lg-5 {
+    width: 41.66666667%;
+  }
+  .wm-lg-4 {
+    width: 33.33333333%;
+  }
+  .wm-lg-3 {
+    width: 25%;
+  }
+  .wm-lg-2 {
+    width: 16.66666667%;
+  }
+  .wm-lg-1 {
+    width: 8.33333333%;
+  }
+}
